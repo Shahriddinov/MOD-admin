@@ -1,11 +1,12 @@
-import TwoView from 'src/sections/two/view';
+import homeView from 'src/sections/home/view';
+import React from 'react';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Two',
+  title: 'Dashboard: Home',
 };
 
 export default function Page() {
-  return <TwoView />;
+  return <homeView />;
 }

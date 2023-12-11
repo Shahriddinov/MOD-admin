@@ -1,11 +1,12 @@
-import OneView from 'src/sections/one/view';
+import BrandView from 'src/sections/brand/view';
+import React from 'react';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: One',
+  title: 'Dashboard: Brand',
 };
 
 export default function Page() {
-  return <OneView />;
+  return <BrandView />;
 }

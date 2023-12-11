@@ -38,7 +38,7 @@ const ICONS = {
   menuItem: icon('ic_menu_item'),
   ecommerce: icon('ic_ecommerce'),
   analytics: icon('ic_analytics'),
-  dashboard: icon('ic_dashboard'),
+  home: icon('ic_home'),
 };
 
 // ----------------------------------------------------------------------
@@ -51,13 +51,19 @@ export function useNavData() {
       {
         subheader: 'overview v5.6.0',
         items: [
-          { title: 'one', path: paths.dashboard.root, icon: ICONS.dashboard },
-          { title: 'two', path: paths.dashboard.two, icon: ICONS.ecommerce },
+          { title: 'home', path: paths.dashboard.root, icon: ICONS.home },
+          { title: 'brand', path: paths.dashboard.brand, icon: ICONS.ecommerce },
           {
-            title: 'three',
-            path: paths.dashboard.three,
+            title: 'categories',
+            path: paths.dashboard.categories,
             icon: ICONS.analytics,
           },
+          {
+            title: 'products',
+            path: paths.dashboard.products,
+            icon: ICONS.analytics,
+          },
+
         ],
       },
 

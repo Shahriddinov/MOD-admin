@@ -1,11 +1,12 @@
-import ThreeView from 'src/sections/three/view';
+import View from '../../sections/products/view';
+import React from 'react';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Three',
+  title: 'Dashboard: Products',
 };
 
 export default function Page() {
-  return <ThreeView />;
+  return <View/>;
 }
