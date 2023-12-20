@@ -22,12 +22,20 @@ export const paths = {
     home: `${ROOTS.DASHBOARD}/home`,
     brand: `${ROOTS.DASHBOARD}/brand`,
     categories: `${ROOTS.DASHBOARD}/categories`,
-    products: `${ROOTS.DASHBOARD}/products`,
-    group: {
-      root: `${ROOTS.DASHBOARD}/group`,
-      five: `${ROOTS.DASHBOARD}/group/five`,
-      six: `${ROOTS.DASHBOARD}/group/six`,
-    },
+    product: `${ROOTS.DASHBOARD}/product`,
+    attributes: `${ROOTS.DASHBOARD}/attributes`,
+    blog: `${ROOTS.DASHBOARD}/blog`,
+    firstPhoto: `${ROOTS.DASHBOARD}/firstPhoto`,
+    discount: `${ROOTS.DASHBOARD}/discount`,
+    delivery: `${ROOTS.DASHBOARD}/delivery`,
+    pricing: `${ROOTS.DASHBOARD}/pricing`,
+    baskets: `${ROOTS.DASHBOARD}/baskets`,
+    orders: `${ROOTS.DASHBOARD}/orders`,
+    personal: `${ROOTS.DASHBOARD}/personal`,
+    analytics: `${ROOTS.DASHBOARD}/analytics`,
+
+
+
 
   },
 };

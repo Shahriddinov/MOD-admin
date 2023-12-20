@@ -1,12 +1,12 @@
-import View from '../../sections/products/view';
+import View from 'src/sections/baskets/view';
 import React from 'react';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Products',
+  title: 'Dashboard: Baskets',
 };
 
 export default function Page() {
-  return <View/>;
+  return <View />;
 }

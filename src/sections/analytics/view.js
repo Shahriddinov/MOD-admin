@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function FourView() {
+export default function View() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Four </Typography>
+      <Typography variant="h4"> Page Analytics </Typography>
 
       <Box
         sx={{
@@ -24,8 +24,9 @@ export default function FourView() {
           borderRadius: 2,
           bgcolor: (theme) => alpha(theme.palette.grey[500], 0.04),
           border: (theme) => `dashed 1px ${theme.palette.divider}`,
-        }}
-      />
+        }}>
+        Analytics page
+      </Box>
     </Container>
   );
 }

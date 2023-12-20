@@ -1,9 +1,9 @@
-import SixView from 'src/sections/six/view';
+import SixView from 'src/sections/attributes/view';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Six',
+  title: 'Dashboard: Attributes',
 };
 
 export default function Page() {

@@ -1,11 +1,12 @@
-import FourView from 'src/sections/four/view';
+import View from 'src/sections/analytics/view';
+import React from 'react';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Four',
+  title: 'Dashboard: Analytics',
 };
 
 export default function Page() {
-  return <FourView />;
+  return <View />;
 }

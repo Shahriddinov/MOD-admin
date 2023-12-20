@@ -39,6 +39,15 @@ const ICONS = {
   ecommerce: icon('ic_ecommerce'),
   analytics: icon('ic_analytics'),
   home: icon('ic_home'),
+  category: icon('ic_category'),
+  attributes: icon('ic_attributes'),
+  firstPhoto: icon('ic_photo'),
+  discount: icon('ic_discount'),
+  delivery: icon('ic_delivery'),
+  pricing: icon('ic_pricing'),
+  baskets: icon('ic_basket'),
+  orders: icon('ic_order'),
+  personal: icon('ic_personal'),
 };
 
 // ----------------------------------------------------------------------
@@ -56,11 +65,61 @@ export function useNavData() {
           {
             title: 'categories',
             path: paths.dashboard.categories,
-            icon: ICONS.analytics,
+            icon: ICONS.category,
+          },
+          { title: 'Product',
+            path: paths.dashboard.product,
+            icon: ICONS.product,
+
+          },
+
+          { title: 'Attributes',
+            path: paths.dashboard.attributes,
+            icon: ICONS.attributes,
           },
           {
-            title: 'products',
-            path: paths.dashboard.products,
+            title: 'Blog',
+            path: paths.dashboard.blog,
+            icon: ICONS.blog,
+          },
+          {
+            title: 'First Photo',
+            path: paths.dashboard.firstPhoto,
+            icon: ICONS.firstPhoto,
+          },
+          {
+            title: 'Discount',
+            path: paths.dashboard.discount,
+            icon: ICONS.discount,
+          },
+          {
+            title: 'Delivery',
+            path: paths.dashboard.delivery,
+            icon: ICONS.delivery,
+          },
+          {
+            title: 'Pricing',
+            path: paths.dashboard.pricing,
+            icon: ICONS.pricing,
+          },
+          {
+            title: 'Baskets',
+            path: paths.dashboard.baskets,
+            icon: ICONS.baskets,
+          },
+          {
+            title: 'Orders and Statuses',
+            path: paths.dashboard.orders,
+            icon: ICONS.orders,
+          },
+          {
+            title: 'Personal',
+            path: paths.dashboard.personal,
+            icon: ICONS.personal,
+          },
+          {
+            title: 'Analytics',
+            path: paths.dashboard.analytics,
             icon: ICONS.analytics,
           },
 
@@ -69,21 +128,12 @@ export function useNavData() {
 
       // MANAGEMENT
       // ----------------------------------------------------------------------
-      {
-        subheader: 'management',
-        items: [
-          {
-            title: 'user',
-            path: paths.dashboard.group.root,
-            icon: ICONS.user,
-            children: [
-              { title: 'four', path: paths.dashboard.group.root },
-              { title: 'five', path: paths.dashboard.group.five },
-              { title: 'six', path: paths.dashboard.group.six },
-            ],
-          },
-        ],
-      },
+      // {
+      //   subheader: 'management',
+      //   items: [
+      //
+      //   ],
+      // },
     ],
     []
   );

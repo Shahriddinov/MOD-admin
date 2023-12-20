@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function homeView() {
+export default function View() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Home </Typography>
+      <Typography variant="h4"> Page Discount </Typography>
 
       <Box
         sx={{
@@ -25,7 +25,7 @@ export default function homeView() {
           bgcolor: (theme) => alpha(theme.palette.grey[500], 0.04),
           border: (theme) => `dashed 1px ${theme.palette.divider}`,
         }}>
-        Home page table
+         Discount
       </Box>
     </Container>
   );

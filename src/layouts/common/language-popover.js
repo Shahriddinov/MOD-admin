@@ -17,25 +17,25 @@ export const allLangs = [
     icon: 'flagpack:gb-nir',
   },
   {
-    label: 'French',
-    value: 'fr',
-    icon: 'flagpack:fr',
+    label: 'Russia',
+    value: 'ru',
+    icon: 'flagpack:ru',
   },
   {
-    label: 'Vietnamese',
-    value: 'vi',
-    icon: 'flagpack:vn',
+    label: 'Uzbekistan',
+    value: 'uz',
+    icon: 'flagpack:uz',
   },
-  {
-    label: 'Chinese',
-    value: 'cn',
-    icon: 'flagpack:cn',
-  },
-  {
-    label: 'Arabic',
-    value: 'ar',
-    icon: 'flagpack:sa',
-  },
+  // {
+  //   label: 'Chinese',
+  //   value: 'cn',
+  //   icon: 'flagpack:cn',
+  // },
+  // {
+  //   label: 'Arabic',
+  //   value: 'ar',
+  //   icon: 'flagpack:sa',
+  // },
 ];
 
 export default function LanguagePopover() {

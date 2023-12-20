@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function homeView() {
+export default function FiveView() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Home </Typography>
+      <Typography variant="h4"> Page Product </Typography>
 
       <Box
         sx={{
@@ -24,9 +24,8 @@ export default function homeView() {
           borderRadius: 2,
           bgcolor: (theme) => alpha(theme.palette.grey[500], 0.04),
           border: (theme) => `dashed 1px ${theme.palette.divider}`,
-        }}>
-        Home page table
-      </Box>
+        }}
+      >product</Box>
     </Container>
   );
 }

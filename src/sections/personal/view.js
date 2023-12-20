@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function SixView() {
+export default function View() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Six </Typography>
+      <Typography variant="h4"> Page Personal </Typography>
 
       <Box
         sx={{
@@ -24,8 +24,9 @@ export default function SixView() {
           borderRadius: 2,
           bgcolor: (theme) => alpha(theme.palette.grey[500], 0.04),
           border: (theme) => `dashed 1px ${theme.palette.divider}`,
-        }}
-      />
+        }}>
+        Personal page
+      </Box>
     </Container>
   );
 }

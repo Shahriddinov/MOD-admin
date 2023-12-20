@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function View() {
+export default function SixView() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Products </Typography>
+      <Typography variant="h4"> Page Attributes </Typography>
 
       <Box
         sx={{
